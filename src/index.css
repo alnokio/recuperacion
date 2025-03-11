@@ -1,0 +1,163 @@
+:root {
+  --primary-color: #6f42c1;
+  --secondary-color: #20c997;
+  --accent-color: #fd7e14;
+  --dark-color: #343a40;
+  --light-color: #f8f9fa;
+}
+
+body {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.bg-primary-gradient {
+  background: linear-gradient(135deg, var(--primary-color), #9461fb);
+}
+
+.bg-secondary-gradient {
+  background: linear-gradient(135deg, var(--secondary-color), #63e6be);
+}
+
+.bg-accent-gradient {
+  background: linear-gradient(135deg, var(--accent-color), #ffb74d);
+}
+
+.text-primary-custom {
+  color: var(--primary-color);
+}
+
+.text-secondary-custom {
+  color: var(--secondary-color);
+}
+
+.text-accent-custom {
+  color: var(--accent-color);
+}
+
+.btn-primary-custom {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary-custom:hover {
+  background-color: #5a32a3;
+  border-color: #5a32a3;
+}
+
+.btn-secondary-custom {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-secondary-custom:hover {
+  background-color: #17a47b;
+  border-color: #17a47b;
+}
+
+.btn-accent-custom {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-accent-custom:hover {
+  background-color: #e56a00;
+  border-color: #e56a00;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px;
+}
+
+.game-card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.publisher-card-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.game-detail-img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.badge-custom {
+  font-weight: 500;
+  padding: 0.35em 0.65em;
+  border-radius: 50rem;
+}
+
+.badge-genre {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.badge-tag {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.badge-platform {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.badge-publisher {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.page-link {
+  color: var(--primary-color);
+}
+
+.page-item.active .page-link {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.footer {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.landing-section {
+  padding: 80px 0;
+}
+
+.landing-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
