@@ -59,7 +59,7 @@ const Games = observer(() => {
     <div className="bg-whitesmoke py-5">
       <Container>
         <h1 className="text-center text-black fw-bold mb-4">
-          Explora los mejores videojuegos
+          Busca el juego que quieres
           
         </h1>
 
