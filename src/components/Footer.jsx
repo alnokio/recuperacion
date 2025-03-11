@@ -6,7 +6,7 @@ const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col md={6} className="text-center text-md-start">
-            <p className="mb-0">&copy; 2025 Recu AlnokioGamgin. Todos los derechos reservados.</p>
+            <p className="mb-0">&copy; 2025 Recu AlnokioGaming. Todos los derechos reservados.</p>
           </Col>
           <Col md={6} className="text-center text-md-end mt-3 mt-md-0">
             <a href="#" className="text-white me-3">

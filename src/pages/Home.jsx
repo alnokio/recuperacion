@@ -20,7 +20,7 @@ const Home = observer(() => {
       <Games />
 
       {/* Sección de navegación a Publishers */}
-      <Container className="py-5 text-center">
+      {/* <Container className="py-5 text-center">
         <Card className="shadow-lg border-0 p-4">
           <Card.Body>
             <h2 className="fw-bold mb-3">Busca según los publishers más recomendados</h2>
@@ -30,7 +30,7 @@ const Home = observer(() => {
             </Button>
           </Card.Body>
         </Card>
-      </Container>
+      </Container> */}
     </div>
   )
 })
